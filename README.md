@@ -132,6 +132,13 @@ python -m pytest tests/ -v
 
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for full security analysis.
 
+## Live Demo
+
+A working demo is available at [gurkantngl/ai-pr-review](https://github.com/gurkantngl/ai-pr-review). See the AI review in action:
+
+- [PR #1 — User Service](https://github.com/gurkantngl/ai-pr-review/pull/1): 11 issues detected (8 High, 3 Medium)
+- [PR #2 — Payment Service](https://github.com/gurkantngl/ai-pr-review/pull/2): 8 issues detected (4 High, 3 Medium, 1 Low)
+
 ## Limitations
 
 - Does not replace human review — designed to assist, not replace.
